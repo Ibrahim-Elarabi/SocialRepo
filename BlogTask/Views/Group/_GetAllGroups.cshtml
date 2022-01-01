@@ -1,0 +1,70 @@
+﻿@model PaginatedList<Group>
+@{
+    ViewData["Title"] = "_GetAllGroups";
+}
+
+<h1>All Groups</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model[0].Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model[0].Description)
+            </th>
+
+            <th>CRUD OPeration</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Title)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+
+                <td>
+                    <a onclick="showInputPopup('@Url.Action("GetRequestsGroup", "GroupUser", new { id = item.GroupID })','Requset')" style="cursor:pointer" class="btn btn-info">Requests</a> |
+
+                    <a onclick="showInputPopup('@Url.Action("Edit", "Group", new { id = item.GroupID })','Edit')" style="cursor:pointer" class="btn btn-info"><i class="fas fa-edit"></i></a> |
+
+                    <a onclick="showInputPopup('@Url.Action("Details", "Group", new { id = item.GroupID })','Details')" style="cursor:pointer" class="btn btn-info "><i class="fas fa-info-circle"></i></a> |
+
+                    @* <a asp-action="Details" asp-route-id="@Model.PostID" class="btn btn-primary"><i class="fas fa-info-circle"></i></a> |*@
+                    @*<a asp-action="Delete" asp-route-id="@Model.PostID" class="btn btn-danger"><i class="fas fa-trash-alt"></i></a>*@
+                    <a onclick="CheckDeleteGroup(@item.GroupID, '@Url.Action("Delete", "Group")')" style="cursor:pointer" class="btn btn-danger"><i class="fas fa-trash-alt"></i></a>
+               
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+@{ 
+    var previousDisabled = !Model.previousPage ? "disabled" : "";
+    var nextDisabled = !Model.netxPage ? "disabled" : "";
+
+}
+<div class="row">
+    <div class="col-md-3">
+        <a style="cursor:pointer" id="prev" class="previous btn  @previousDisabled">&laquo; Previous</a>
+        <a style="cursor:pointer" id="next" class="next  btn @nextDisabled">Next &raquo;</a>
+    </div>
+    <div class="col-md-6"></div>
+    <p class="col-md-3"><span> Page :@Model.PageIndex from  @Model.TotalPages </span> </p>
+</div>
+<script>
+    $("#prev").on("click", function () {
+        //event.preventDefault();
+        loadDataListGroup(@Model.PageIndex-1)
+    })
+    $("#next").on("click", function () {
+        loadDataListGroup(@Model.PageIndex+1)
+    })
+   
+</script>

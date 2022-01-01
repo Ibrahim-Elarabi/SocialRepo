@@ -1,0 +1,81 @@
+﻿@model BlogTask.Models.Post
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = null;
+}
+
+<h1>Create</h1>
+
+<h4>Post</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form id="formID">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Title" class="control-label"></label>
+                <input asp-for="Title" class="form-control" />
+                <span asp-validation-for="Title" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Content" class="control-label"></label>
+                <input asp-for="Content" class="form-control" />
+                <span asp-validation-for="Content" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Date" class="control-label"></label>
+                <input asp-for="Date" class="form-control" />
+                <span asp-validation-for="Date" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="BlogID" class="control-label"></label>
+                <select asp-for="BlogID" class="form-control" asp-items="ViewBag.BlogID"></select>
+            </div>
+            <div class="form-group">
+                <button onclick="submitForm()" type="button" value="Create" class="btn btn-primary btn-block" >Create</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+
+<script type="text/javascript">
+    function submitForm() {
+        var _data = $("#formID").serialize();
+           $.ajax({
+               type: "post",
+               url: '@Url.Action("Create")',
+              
+               data: _data,
+               contentType: 'application/x-www-form-urlencoded; charset=UTF-8',
+               dataType:'json',
+               success: (res) => {
+                   if (res.ok == true) {
+                       $("#form-modal").modal('toggle');
+                       Swal.fire({
+                           position: 'top-end',
+                           icon: 'success',
+                           title: 'Your Create Success',
+                           showConfirmButton: true
+                          
+                       }).then(
+                           (confirm) => {
+                               if (confirm) window.location.reload();
+                           }
+                       )
+                       //window.location.reload();
+                       @*window.location.replace('@Url.Action("Index")');*@
+                   }
+               }
+           })
+
+       }
+</script>
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

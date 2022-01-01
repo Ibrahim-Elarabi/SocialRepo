@@ -1,0 +1,98 @@
+﻿@*@model IEnumerable<Post>*@
+@*@model IEnumerable<BlogTask.Models.ViewModel.PostVM>*@
+@model PaginatedList<Post>
+@foreach (var item in Model)
+{
+
+    <div class=" bg-light mt-2 col-12">
+        <div class="row justify-content-around ">
+            <div class="col-md-5 ">
+                <p class="text-info mb-0">
+                    <img src="~/Images/user.png" style="border-radius:50%" alt="Alternate Text" />
+                    @item.IdentityUser.Email
+
+                </p>
+                <p class="col-md-3 ml-5  mt-0 text-black display-6" style="font-size: 11px !important"> @Html.DisplayFor(modelItem => item.Date)</p>
+            </div>
+            @if (item.UserId == ViewBag.userId)
+            {
+                <p class="col-md-3 mt-1">
+                    <a onclick="showInputPopup('@Url.Action("Edit", "Post", new { id = item.PostID })','Create')" style="cursor:pointer" class="btn btn-info"><i class="fas fa-edit"></i></a> |
+                    @*<a  onclick="@Url.Action("Edit", "Post", new { id = item.PostID })">content</a>*@
+                    <a onclick="showInputPopup('@Url.Action("Details", "Post", new { id = item.PostID })','Create')" style="cursor:pointer" class="btn btn-info "><i class="fas fa-info-circle"></i></a> |
+                    <a onclick="CheckDeletePost(@item.PostID,'@Url.Action("Delete", "Post")')" style="cursor:pointer" class="btn btn-danger"><i class="fas fa-trash-alt"></i></a>
+
+                </p> }
+            else
+            {
+                <p class="col-md-3 mt-1">
+                    <a onclick="showInputPopup('@Url.Action("Details", "Post", new { id = item.PostID })','Create')" style="cursor:pointer" class="btn btn-info "><i class="fas fa-info-circle"></i></a>
+                </p>
+            }
+
+        </div>
+        <div class="row">
+            <p class="col-md-2"></p>
+            <p class="text-center col-md-8">
+                @item.Content
+            </p>
+            <p class="col-md-2"></p>
+
+           
+
+        </div>
+         @if (item.Img != null)
+            {
+       
+                <img src="~/Images/@item.Img" class="rounded mx-auto d-block" alt="Alternate Text" />
+            }
+    </div>
+}
+@{
+    var previousDisabled = !Model.previousPage ? "disabled" : "";
+    var nextDisabled = !Model.netxPage ? "disabled" : "";
+    
+}
+<div class="row">
+    <div class="col-md-3">
+        <a style="cursor:pointer" id="prev" class="previous btn  @previousDisabled">&laquo; Previous</a>
+        <a style="cursor:pointer" id="next" class="next  btn @nextDisabled">Next &raquo;</a>
+    </div>
+    <div class="col-md-6"></div>
+    <p class="col-md-3"><span> Page :@Model.PageIndex from  @Model.TotalPages </span> </p>
+</div>
+<script>
+    $("#prev").on("click", function () {
+        //event.preventDefault();
+        LoadData(@Model.PageIndex-1);
+    })
+    $("#next").on("click", function () {
+        LoadData(@Model.PageIndex+1)
+    })
+
+    function CheckDeletePost(id, uri) {
+        event.preventDefault();
+        Swal.fire({
+            title: 'Do you want to Delete This Post?',
+            showDenyButton: true,
+            showCancelButton: true,
+            confirmButtonText: 'Save',
+            denyButtonText: `Don't save`,
+        }).then((result) => {
+            if (result.isConfirmed) {
+                var _id = id;
+                $.ajax({
+                    type: "post",
+                    url: uri,
+                    data: { "id": _id }
+                })
+                Swal.fire('Deleted!', '', 'success')
+                    .then((confirm) => {
+                        LoadData(@Model.PageIndex);
+                    })
+            } else if (result.isDenied) {
+                Swal.fire('Changes are not saved', '', 'info')
+            }
+        })
+    }
+</script>

@@ -1,0 +1,74 @@
+﻿@model GroupVM
+
+<h1>Edit Group</h1>
+
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form id="formEditGroup">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="GroupID" />
+            <div class="form-group">
+                <label asp-for="Title" class="control-label"></label>
+                <input asp-for="Title" class="form-control" />
+                <span asp-validation-for="Title" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Description" class="control-label"></label>
+                <input asp-for="Description" class="form-control" />
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                @*<input type="submit" value="Save" class="btn btn-primary" />*@
+                <button  type="submit" value="Edit" class="btn btn-primary btn-block">Edit</button>
+            </div>
+        </form>
+    </div>
+</div>
+<script src="~/js/EditGroup.js"></script>
+
+<script src="~/lib/jquery-validation/dist/jquery.validate.js"></script>
+<script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+<script>
+    $("#formEditGroup").on("submit", function () {
+        event.preventDefault();
+        var _data = $("#formEditGroup").serialize();
+        $.ajax({
+            type: "post",
+            url: 'Group/Edit',
+            data: _data,
+            contentType: 'application/x-www-form-urlencoded; charset=UTF-8',
+            dataType: 'json',
+            success: (res) => {
+                if (res.ok == true) {
+                    $("#form-modal").modal('toggle');
+                    Swal.fire({
+                        position: 'top-end',
+                        icon: 'success',
+                        title: 'Your Edit Success',
+                        showConfirmButton: true
+
+                    }).then(
+                        (confirm) => {
+                            if (confirm) {
+                                loadDataListGroup();
+                            }
+                        }
+                    )
+                  
+                }
+                else if (res.ok == false) {
+                    Swal.fire({
+                        position: 'top-end',
+                        icon: "error",
+                        title: 'Your Edit Faild',
+                        showConfirmButton: true
+                    })
+                }
+            }
+        })
+
+    });
+</script>

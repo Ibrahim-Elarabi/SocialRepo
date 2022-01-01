@@ -1,0 +1,397 @@
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\appsettings.Development.json
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\appsettings.json
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\libman.json
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\BlogTask.StaticWebAssets.xml
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\BlogTask.exe
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\BlogTask.deps.json
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\BlogTask.runtimeconfig.json
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\BlogTask.runtimeconfig.dev.json
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\BlogTask.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\ref\BlogTask.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\BlogTask.pdb
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\BlogTask.Views.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\BlogTask.Views.pdb
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\Castle.Core.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\Humanizer.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.UI.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\Microsoft.CodeAnalysis.Razor.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Proxies.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.Design.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.Design.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\dotnet-aspnet-codegenerator-design.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\System.Composition.AttributedModel.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\System.Composition.Convention.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\System.Composition.Hosting.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\System.Composition.Runtime.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\System.Composition.TypedParts.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\System.Runtime.Caching.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Courses\Core\BlogTask\BlogTask\obj\Debug\net5.0\BlogTask.GeneratedMSBuildEditorConfig.editorconfig
+D:\Courses\Core\BlogTask\BlogTask\obj\Debug\net5.0\BlogTask.AssemblyInfoInputs.cache
+D:\Courses\Core\BlogTask\BlogTask\obj\Debug\net5.0\BlogTask.AssemblyInfo.cs
+D:\Courses\Core\BlogTask\BlogTask\obj\Debug\net5.0\BlogTask.csproj.CoreCompileInputs.cache
+D:\Courses\Core\BlogTask\BlogTask\obj\Debug\net5.0\BlogTask.MvcApplicationPartsAssemblyInfo.cs
+D:\Courses\Core\BlogTask\BlogTask\obj\Debug\net5.0\BlogTask.MvcApplicationPartsAssemblyInfo.cache
+D:\Courses\Core\BlogTask\BlogTask\obj\Debug\net5.0\BlogTask.RazorAssemblyInfo.cache
+D:\Courses\Core\BlogTask\BlogTask\obj\Debug\net5.0\BlogTask.RazorAssemblyInfo.cs
+D:\Courses\Core\BlogTask\BlogTask\obj\Debug\net5.0\staticwebassets\BlogTask.StaticWebAssets.Manifest.cache
+D:\Courses\Core\BlogTask\BlogTask\obj\Debug\net5.0\staticwebassets\BlogTask.StaticWebAssets.xml
+D:\Courses\Core\BlogTask\BlogTask\obj\Debug\net5.0\scopedcss\bundle\BlogTask.styles.css
+D:\Courses\Core\BlogTask\BlogTask\obj\Debug\net5.0\BlogTask.TagHelpers.input.cache
+D:\Courses\Core\BlogTask\BlogTask\obj\Debug\net5.0\BlogTask.TagHelpers.output.cache
+D:\Courses\Core\BlogTask\BlogTask\obj\Debug\net5.0\BlogTask.RazorCoreGenerate.cache
+D:\Courses\Core\BlogTask\BlogTask\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Login.cshtml.g.cs
+D:\Courses\Core\BlogTask\BlogTask\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Logout.cshtml.g.cs
+D:\Courses\Core\BlogTask\BlogTask\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Register.cshtml.g.cs
+D:\Courses\Core\BlogTask\BlogTask\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
+D:\Courses\Core\BlogTask\BlogTask\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
+D:\Courses\Core\BlogTask\BlogTask\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
+D:\Courses\Core\BlogTask\BlogTask\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
+D:\Courses\Core\BlogTask\BlogTask\obj\Debug\net5.0\Razor\Views\Blog\Create.cshtml.g.cs
+D:\Courses\Core\BlogTask\BlogTask\obj\Debug\net5.0\Razor\Views\Blog\Details.cshtml.g.cs
+D:\Courses\Core\BlogTask\BlogTask\obj\Debug\net5.0\Razor\Views\Blog\Edit.cshtml.g.cs
+D:\Courses\Core\BlogTask\BlogTask\obj\Debug\net5.0\Razor\Views\Blog\Index.cshtml.g.cs
+D:\Courses\Core\BlogTask\BlogTask\obj\Debug\net5.0\Razor\Views\Group\GetGroup.cshtml.g.cs
+D:\Courses\Core\BlogTask\BlogTask\obj\Debug\net5.0\Razor\Views\Group\Index.cshtml.g.cs
+D:\Courses\Core\BlogTask\BlogTask\obj\Debug\net5.0\Razor\Views\Group\_CreateGroup_PV.cshtml.g.cs
+D:\Courses\Core\BlogTask\BlogTask\obj\Debug\net5.0\Razor\Views\Group\_DetailsGroup.cshtml.g.cs
+D:\Courses\Core\BlogTask\BlogTask\obj\Debug\net5.0\Razor\Views\Group\_EditGroup.cshtml.g.cs
+D:\Courses\Core\BlogTask\BlogTask\obj\Debug\net5.0\Razor\Views\Group\_GetAllGroups.cshtml.g.cs
+D:\Courses\Core\BlogTask\BlogTask\obj\Debug\net5.0\Razor\Views\Group\_GetAllGroupsForUser.cshtml.g.cs
+D:\Courses\Core\BlogTask\BlogTask\obj\Debug\net5.0\Razor\Views\Group\_GetAllGroupsSuggestions.cshtml.g.cs
+D:\Courses\Core\BlogTask\BlogTask\obj\Debug\net5.0\Razor\Views\Group\_GetPendingGroups.cshtml.g.cs
+D:\Courses\Core\BlogTask\BlogTask\obj\Debug\net5.0\Razor\Views\Group\_GetRequestsGroup.cshtml.g.cs
+D:\Courses\Core\BlogTask\BlogTask\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+D:\Courses\Core\BlogTask\BlogTask\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+D:\Courses\Core\BlogTask\BlogTask\obj\Debug\net5.0\Razor\Views\Post\Create.cshtml.g.cs
+D:\Courses\Core\BlogTask\BlogTask\obj\Debug\net5.0\Razor\Views\Post\Details.cshtml.g.cs
+D:\Courses\Core\BlogTask\BlogTask\obj\Debug\net5.0\Razor\Views\Post\Edit.cshtml.g.cs
+D:\Courses\Core\BlogTask\BlogTask\obj\Debug\net5.0\Razor\Views\Post\GetAllPostsInGroup.cshtml.g.cs
+D:\Courses\Core\BlogTask\BlogTask\obj\Debug\net5.0\Razor\Views\Post\GetAllPublicPosts.cshtml.g.cs
+D:\Courses\Core\BlogTask\BlogTask\obj\Debug\net5.0\Razor\Views\Post\Index.cshtml.g.cs
+D:\Courses\Core\BlogTask\BlogTask\obj\Debug\net5.0\Razor\Views\Post\_Create.cshtml.g.cs
+D:\Courses\Core\BlogTask\BlogTask\obj\Debug\net5.0\Razor\Views\Post\_CreatePostInGroup.cshtml.g.cs
+D:\Courses\Core\BlogTask\BlogTask\obj\Debug\net5.0\Razor\Views\Post\_Edit.cshtml.g.cs
+D:\Courses\Core\BlogTask\BlogTask\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+D:\Courses\Core\BlogTask\BlogTask\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\Courses\Core\BlogTask\BlogTask\obj\Debug\net5.0\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+D:\Courses\Core\BlogTask\BlogTask\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\Courses\Core\BlogTask\BlogTask\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+D:\Courses\Core\BlogTask\BlogTask\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+D:\Courses\Core\BlogTask\BlogTask\obj\Debug\net5.0\BlogTask.RazorTargetAssemblyInfo.cache
+D:\Courses\Core\BlogTask\BlogTask\obj\Debug\net5.0\BlogTask.RazorTargetAssemblyInfo.cs
+D:\Courses\Core\BlogTask\BlogTask\obj\Debug\net5.0\BlogTask.Views.pdb
+D:\Courses\Core\BlogTask\BlogTask\obj\Debug\net5.0\BlogTask.csproj.CopyComplete
+D:\Courses\Core\BlogTask\BlogTask\obj\Debug\net5.0\BlogTask.dll
+D:\Courses\Core\BlogTask\BlogTask\obj\Debug\net5.0\ref\BlogTask.dll
+D:\Courses\Core\BlogTask\BlogTask\obj\Debug\net5.0\BlogTask.pdb
+D:\Courses\Core\BlogTask\BlogTask\obj\Debug\net5.0\BlogTask.genruntimeconfig.cache
+D:\Courses\Core\BlogTask\BlogTask\obj\Debug\net5.0\Razor\Views\Group\_GroupDataHeader.cshtml.g.cs
+D:\Courses\Core\BlogTask\BlogTask\obj\Debug\net5.0\Razor\Views\Group\_GetPostsInGroup.cshtml.g.cs
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\AutoMapper.dll
+D:\Courses\Core\BlogTask\BlogTask\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\Courses\Core\BlogTask\BlogTask\obj\Debug\net5.0\Razor\Views\Post\_GetSearchForm.cshtml.g.cs
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\appsettings.Development.json
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\appsettings.json
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\libman.json
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\BlogTask.StaticWebAssets.xml
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\BlogTask.exe
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\BlogTask.deps.json
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\BlogTask.runtimeconfig.json
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\BlogTask.runtimeconfig.dev.json
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\BlogTask.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\ref\BlogTask.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\BlogTask.pdb
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\BlogTask.Views.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\BlogTask.Views.pdb
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\AutoMapper.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\Castle.Core.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\Humanizer.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.UI.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\Microsoft.CodeAnalysis.Razor.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Proxies.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.Design.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.Design.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\dotnet-aspnet-codegenerator-design.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\System.Composition.AttributedModel.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\System.Composition.Convention.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\System.Composition.Hosting.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\System.Composition.Runtime.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\System.Composition.TypedParts.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\System.Runtime.Caching.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\obj\Debug\net5.0\BlogTask.csproj.AssemblyReference.cache
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\obj\Debug\net5.0\BlogTask.GeneratedMSBuildEditorConfig.editorconfig
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\obj\Debug\net5.0\BlogTask.AssemblyInfoInputs.cache
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\obj\Debug\net5.0\BlogTask.AssemblyInfo.cs
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\obj\Debug\net5.0\BlogTask.csproj.CoreCompileInputs.cache
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\obj\Debug\net5.0\BlogTask.MvcApplicationPartsAssemblyInfo.cs
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\obj\Debug\net5.0\BlogTask.MvcApplicationPartsAssemblyInfo.cache
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\obj\Debug\net5.0\BlogTask.RazorAssemblyInfo.cache
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\obj\Debug\net5.0\BlogTask.RazorAssemblyInfo.cs
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\obj\Debug\net5.0\staticwebassets\BlogTask.StaticWebAssets.Manifest.cache
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\obj\Debug\net5.0\staticwebassets\BlogTask.StaticWebAssets.xml
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\obj\Debug\net5.0\scopedcss\bundle\BlogTask.styles.css
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\obj\Debug\net5.0\BlogTask.TagHelpers.input.cache
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\obj\Debug\net5.0\BlogTask.TagHelpers.output.cache
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\obj\Debug\net5.0\BlogTask.RazorCoreGenerate.cache
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Login.cshtml.g.cs
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Logout.cshtml.g.cs
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Register.cshtml.g.cs
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\obj\Debug\net5.0\Razor\Views\Blog\Create.cshtml.g.cs
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\obj\Debug\net5.0\Razor\Views\Blog\Details.cshtml.g.cs
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\obj\Debug\net5.0\Razor\Views\Blog\Edit.cshtml.g.cs
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\obj\Debug\net5.0\Razor\Views\Blog\Index.cshtml.g.cs
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\obj\Debug\net5.0\Razor\Views\Group\GetGroup.cshtml.g.cs
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\obj\Debug\net5.0\Razor\Views\Group\Index.cshtml.g.cs
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\obj\Debug\net5.0\Razor\Views\Group\_CreateGroup_PV.cshtml.g.cs
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\obj\Debug\net5.0\Razor\Views\Group\_DetailsGroup.cshtml.g.cs
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\obj\Debug\net5.0\Razor\Views\Group\_EditGroup.cshtml.g.cs
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\obj\Debug\net5.0\Razor\Views\Group\_GetAllGroups.cshtml.g.cs
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\obj\Debug\net5.0\Razor\Views\Group\_GetAllGroupsForUser.cshtml.g.cs
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\obj\Debug\net5.0\Razor\Views\Group\_GetAllGroupsSuggestions.cshtml.g.cs
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\obj\Debug\net5.0\Razor\Views\Group\_GetPendingGroups.cshtml.g.cs
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\obj\Debug\net5.0\Razor\Views\Group\_GetPostsInGroup.cshtml.g.cs
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\obj\Debug\net5.0\Razor\Views\Group\_GroupDataHeader.cshtml.g.cs
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\obj\Debug\net5.0\Razor\Views\Post\Create.cshtml.g.cs
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\obj\Debug\net5.0\Razor\Views\Post\Details.cshtml.g.cs
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\obj\Debug\net5.0\Razor\Views\Post\Edit.cshtml.g.cs
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\obj\Debug\net5.0\Razor\Views\Post\GetAllPostsInGroup.cshtml.g.cs
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\obj\Debug\net5.0\Razor\Views\Post\GetAllPublicPosts.cshtml.g.cs
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\obj\Debug\net5.0\Razor\Views\Post\Index.cshtml.g.cs
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\obj\Debug\net5.0\Razor\Views\Post\_Create.cshtml.g.cs
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\obj\Debug\net5.0\Razor\Views\Post\_CreatePostInGroup.cshtml.g.cs
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\obj\Debug\net5.0\Razor\Views\Post\_Edit.cshtml.g.cs
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\obj\Debug\net5.0\Razor\Views\Post\_GetSearchForm.cshtml.g.cs
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\obj\Debug\net5.0\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\obj\Debug\net5.0\BlogTask.RazorTargetAssemblyInfo.cache
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\obj\Debug\net5.0\BlogTask.RazorTargetAssemblyInfo.cs
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\obj\Debug\net5.0\BlogTask.Views.pdb
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\obj\Debug\net5.0\BlogTask.csproj.CopyComplete
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\obj\Debug\net5.0\BlogTask.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\obj\Debug\net5.0\ref\BlogTask.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\obj\Debug\net5.0\BlogTask.pdb
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\obj\Debug\net5.0\BlogTask.genruntimeconfig.cache
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\BlogTaskDB.DAL.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\BlogTaskDB.DAL.pdb
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\obj\Debug\net5.0\Razor\Views\GroupUser\Index.cshtml.g.cs
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\obj\Debug\net5.0\Razor\Views\GroupUser\_GetRequestsGroup.cshtml.g.cs
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\obj\Debug\net5.0\Razor\Views\Post\_GetPostsInGroup.cshtml.g.cs

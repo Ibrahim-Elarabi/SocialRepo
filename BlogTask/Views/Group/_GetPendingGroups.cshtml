@@ -1,0 +1,38 @@
+﻿@model IEnumerable<GroupVM>
+
+    <h3 
+        style="background-color: #e5e7e8 !important;
+      height: 41px !important;
+      text-align: center !important; 
+      margin-top: 8px !important; 
+      border-radius: 8px !important;">Groups Pending</h3>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Title)
+                </th>
+
+
+                <th>Join Request</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Title)
+                    </td>
+
+                    <td>
+                        @*<a onclick="getJoinRequest(@item.GroupID)" style="cursor:pointer" class="btn btn-info">Join</a>*@
+                        <p class="text-danger">Pending</p>
+
+
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>

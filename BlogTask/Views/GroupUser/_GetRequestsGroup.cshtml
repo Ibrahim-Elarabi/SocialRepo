@@ -1,0 +1,84 @@
+﻿
+@model IEnumerable<GroupUser>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.UserId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.GroupID)
+            </th>
+
+            <th>CRUD OPeration</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IdentityUser.Email)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Group.Title)
+                </td>
+
+                <td>
+                    <a onclick="GetAcceptRequest(@item.ID)" style="cursor:pointer" class="btn btn-info">Accept</a> |
+                    <a onclick="DeleteRequest(@item.ID)" style="cursor:pointer" class="btn btn-danger">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<script>
+    function GetAcceptRequest(id) {
+        var _id = id;
+        $.ajax({
+            type: "post",
+            url: 'GroupUser/ConfirmRequest',
+            data: { "id": id },
+            success: (res) => {
+                if (res.ok == true) {
+                    console.log("LOadData");
+                    showInputPopup('@Url.Action("GetRequestsGroup", "GroupUser")', 'Requset');
+                    //loadGroupsForUser();
+                }
+
+            }
+
+        })
+
+    }
+    function DeleteRequest(id) {
+          var _id = id;
+        $.ajax({
+            type: "post",
+            url: 'GroupUser/DeleteRequest',
+            data: { "id": id },
+            success: (res) => {
+                if (res.ok == true) {
+                    console.log("LoadData");
+                    showInputPopup('@Url.Action("GetRequestsGroup", "GroupUser")', 'Requset');
+                    //loadGroupsForUser();
+                }
+
+            }
+
+        })
+
+    }
+   
+    //function loadDataListGroup() {
+    //    $.ajax({
+    //        type: "GET",
+    //        url: 'Group/GetAll',
+    //        success: function (res) {
+
+    //            $("#listAllGroups").html(res);
+
+    //        }
+    //    });
+    //}
+</script>

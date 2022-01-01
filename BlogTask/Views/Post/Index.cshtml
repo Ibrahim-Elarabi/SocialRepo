@@ -1,0 +1,159 @@
+﻿@*@model IEnumerable<BlogTask.Models.Post>*@
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+<div class="row">
+    <p class="col-md-3">
+        <a onclick="showInputPopup('@Url.Action("Create","Post")','Create')" style="cursor:pointer" class="btn btn-info"><i class="fa fa-plus" aria-hidden="true"></i></a>
+    </p>
+    @*Delete Search from Public Posts*@
+    @*<div id="search" class="col-md-9">
+
+        </div>*@
+</div>
+
+<div class="row">
+    <div class="col-md-3">
+        <div id="groupForUser">
+
+        </div>
+        <div id="PendingGroups">
+
+        </div>
+        <div  id="showGroupsSuggestion">
+
+        </div>
+
+    </div>
+    <div id="listAllPosts" class="col-md-9">
+
+    </div>
+</div>
+
+<script type="text/javascript" src="~/js/CreatePost.js"></script>
+<script src="~/js/Delete.js"></script>
+
+
+
+<div class="modal" tabindex="-1" id="form-modal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title"></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+
+    $(document).ready(function () {
+        LoadData(1);
+        loadSuggestionGroups();
+        loadGroupsForUser();
+        loadGroupsPending();
+        //search();
+    });
+    function searchByName() {
+        var SearchItem = document.getElementById("inputSearch").value;
+        $.ajax({
+            type: "Get",
+            //url: @*'@Url.Action("GetSearchData", "Post")',*@
+            url: 'Post/GetAllPublicPosts',
+            data: {
+                //"SearchItem": SearchItem
+                "id": SearchItem
+            },
+            success: (res) => {
+                console.log("Success");
+                $("#listAllPosts").html(res);
+            }, error: (res) => {
+                $("#listAllPosts").html("Can't Load Data");
+            }
+        }) 
+        //loadData();
+    }
+    function LoadData(id) {
+      
+        $.ajax({
+            type: "GET",
+            url: 'Post/GetAllPublicPosts',
+            data: {
+                "id": id
+            },
+            success: function (res) {
+
+                $("#listAllPosts").html(res);
+
+            }, error: (res) => {
+                $("#listAllPosts").html("Can't Load Data");
+            }
+        });
+    }
+
+    function loadSuggestionGroups() {
+        $.ajax({
+            type: "GET",
+            url: 'Group/GetAllGroupsSuggestions',
+            success: function (res) {
+
+                $("#showGroupsSuggestion").html(res);
+
+            },
+            error: (res) => {
+                $("#groupForUser").html("Can't Load Group Suggestions");
+            }
+        });
+    }
+
+    function loadGroupsForUser() {
+        $.ajax({
+            type: "GET",
+            url: 'Group/GetAllGroupsForUser',
+            success: function (res) {
+                /*console.log("join is send");*/
+                $("#groupForUser").html(res);
+
+            },
+            error: (res)=>{
+                $("#groupForUser").html("Can't Load Group For User");
+            }
+        });
+    }
+    function loadGroupsPending() {
+        $.ajax({
+            type: "Get",
+            url: 'Group/GetPendingGroups',
+            success: (res) => {
+                $("#PendingGroups").html(res);
+            },
+            error: ()=>{
+                $("#PendingGroups").html("Can't Load Pending Groups.");
+            }
+        })
+    }
+
+    function search() {
+        $.ajax({
+            type: "Get",
+            url: '@Url.Action("GetSearchForm","Post")',
+            success: (res) => {
+                $("#search").html(res);
+            },
+            error: (res) => {
+                $("#search").html("Can't Load Data");
+            }
+        })
+    }
+    
+</script>

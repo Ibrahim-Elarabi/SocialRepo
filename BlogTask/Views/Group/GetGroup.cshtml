@@ -1,0 +1,98 @@
+﻿
+
+
+<div id="searchSection">
+  
+</div>
+
+<div id="headerGroup">
+
+</div>
+<input id="groupId" type="hidden" name="" value="@ViewBag.GroupID" />
+<div class="row mt-3">
+    <p class="col-md-3">
+        <a onclick="showInputPopup('@Url.Action("CreatePostInGroup","Post",new { id = ViewBag.GroupID})','Create')" style="cursor:pointer" class="btn btn-info"><i class="fa fa-plus" aria-hidden="true"></i></a>
+    </p>
+</div>
+
+<div id="allPosts">
+
+</div>
+<div class="modal" tabindex="-1" id="form-modal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title"></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<script src="~/js/Delete.js"></script>
+
+<script>
+    $(document).ready(function () {
+        var _groupID = document.getElementById("groupId").value;
+        var groupID = parseInt(_groupID);
+        //alert(groupID);
+        getSearchForm(groupID);
+        GetHeaderGroup(groupID);
+        GetPostsIngroup(groupID,1);
+    })
+    function GetHeaderGroup(id) {
+        var groupId = id;
+        $.ajax({
+            type: "Get",
+            //url: 'Group/GetDataGroup',
+            url: '@Url.Action("GetDataGroup","Group")',
+            data: {
+                "id": groupId
+            },
+            success: (res) => {
+                $("#headerGroup").html(res);
+            }, error: () => {
+                $("#headerGroup").html("Can't Load Data.");
+
+            }
+        })
+    }
+
+    function GetPostsIngroup(id,pageIndex) {
+        var groupId = id;
+        $.ajax({
+            type: "Get",
+            url: '/Post/GetPostsInGroup?id=' + id,
+            data: {
+                "pageIndex": pageIndex
+            },
+            success: (res) => {
+                $("#allPosts").html(res);
+            }, error: () => {
+                $("#allPosts").html("Can't Load Data.");
+
+            }
+        })
+    }
+    function getSearchForm(id) {
+        $.ajax({
+            type: "Get",
+            url: '/Post/GetSearchForm',
+            data: { "id": id },
+            success: (res) => {
+                $("#searchSection").html(res);
+            },
+            error: (res) => {
+                $("#searchSection").html("Can't load Form Section");
+
+            }
+        })
+
+    }
+</script>

@@ -1,0 +1,33 @@
+﻿@model BlogTask.Models.Post
+
+<div>
+    <h4>Post</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-4">
+            @Html.DisplayNameFor(model => model.Title)
+        </dt>
+        <dd class = "col-sm-8">
+            @Html.DisplayFor(model => model.Title)
+        </dd>
+        <dt class = "col-sm-4">
+            @Html.DisplayNameFor(model => model.Content)
+        </dt>
+        <dd class = "col-sm-8">
+            @Html.DisplayFor(model => model.Content)
+        </dd>
+        <dt class = "col-sm-4">
+            @Html.DisplayNameFor(model => model.Date)
+        </dt>
+        <dd class = "col-sm-8">
+            @Html.DisplayFor(model => model.Date)
+        </dd>
+        <dt class = "col-sm-4">
+            @Html.DisplayNameFor(model => model.Blog)
+        </dt>
+        <dd class = "col-sm-8">
+            @Html.DisplayFor(model => model.Blog.Name)
+        </dd>
+    </dl>
+</div>
+

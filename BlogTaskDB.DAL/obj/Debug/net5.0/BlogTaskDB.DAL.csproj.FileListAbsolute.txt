@@ -1,0 +1,15 @@
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTaskDB.DAL\obj\Debug\net5.0\BlogTaskDB.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTaskDB.DAL\obj\Debug\net5.0\BlogTaskDB.DAL.AssemblyInfoInputs.cache
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTaskDB.DAL\obj\Debug\net5.0\BlogTaskDB.DAL.AssemblyInfo.cs
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTaskDB.DAL\obj\Debug\net5.0\BlogTaskDB.DAL.csproj.CoreCompileInputs.cache
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTaskDB.DAL\bin\Debug\net5.0\BlogTaskDB.DAL.deps.json
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTaskDB.DAL\bin\Debug\net5.0\BlogTaskDB.DAL.runtimeconfig.json
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTaskDB.DAL\bin\Debug\net5.0\BlogTaskDB.DAL.runtimeconfig.dev.json
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTaskDB.DAL\bin\Debug\net5.0\BlogTaskDB.DAL.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTaskDB.DAL\bin\Debug\net5.0\ref\BlogTaskDB.DAL.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTaskDB.DAL\bin\Debug\net5.0\BlogTaskDB.DAL.pdb
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTaskDB.DAL\obj\Debug\net5.0\BlogTaskDB.DAL.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTaskDB.DAL\obj\Debug\net5.0\ref\BlogTaskDB.DAL.dll
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTaskDB.DAL\obj\Debug\net5.0\BlogTaskDB.DAL.pdb
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTaskDB.DAL\obj\Debug\net5.0\BlogTaskDB.DAL.genruntimeconfig.cache
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTaskDB.DAL\obj\Debug\net5.0\BlogTaskDB.DAL.csproj.AssemblyReference.cache

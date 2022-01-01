@@ -1,0 +1,19 @@
+﻿@model BlogTask.Models.ViewModel.GroupHeaderVM
+@if (Model != null)
+{
+    <h1 class="text-primary bg-light text-center">@Model.GroupName</h1>
+
+
+    <div class="row justify-content-around bg-light">
+        <div class="col-md-3">
+
+            <p class="text-info">@Model.GroupName</p>
+            <p class="text-primary">@Model.GroupDesc</p>
+        </div>
+        <div class="col-md-3">
+            <p><span class="text-info">Public Group </span> @Model.NumberOfUserInGroup<span class="text-info"> Members</span> </p>
+            <p></p>
+        </div>
+    </div>
+}
+

@@ -1,0 +1,30 @@
+﻿
+@model IEnumerable<GroupVM>
+<h3   style="background-color: #e5e7e8 !important;
+      height: 41px !important;
+      text-align: center !important; 
+      margin-top: 8px !important; 
+      border-radius: 8px !important;">Groups For User</h3>
+
+<div class="list-group">
+    @foreach (var item in Model)
+    {
+        <a asp-action="GetGroup" asp-controller="Group" asp-route-id="@item.GroupID"  style="cursor:pointer" class="list-group-item list-group-item-action   list-group-item-primary">@item.Title</a>
+    }
+</div>
+
+ 
+<script>
+   
+    function getPostsInGroup(id) {
+        $.ajax({
+            type: "Get",
+            url: 'Post/GetAllPostsInGroup',
+            data: {
+                "id": id
+            }, success: (res) => {
+                $("#listAllPosts").html(res);
+            }
+        })
+    }
+</script>

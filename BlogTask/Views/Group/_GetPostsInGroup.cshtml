@@ -1,0 +1,81 @@
+﻿@model List<BlogTask.Models.ViewModel.PostInGroupVM>
+
+<div class="row">
+    <div class="col-md-1"></div>
+    <div class="col-md-10">
+        @if (Model.Count > 0)
+        {
+            foreach (var item in Model)
+            {
+
+                <div class=" bg-light mt-2 col-12">
+                    <div class="row justify-content-around ">
+                        <div class="col-md-5 ">
+                            <p class="text-info mb-0">
+                                <img src="~/Images/user.png" style="border-radius:50%" alt="Alternate Text" />
+                                @item.Email
+                            </p>
+                            <p class="col-md-3 ml-5  mt-0 text-black display-6" style="font-size: 11px !important"> @Html.DisplayFor(modelItem => item.Date)</p>
+                        </div>
+                        @if (item.UserId == item.CurrentUserId)
+                        {
+                            <p class="col-md-3 mt-1">
+                                <a onclick="showInputPopup('@Url.Action("Edit", "Post", new { id = item.PostID })','Create')" style="cursor:pointer" class="btn btn-info"><i class="fas fa-edit"></i></a> |
+                                <a onclick="showInputPopup('@Url.Action("Details", "Post", new { id = item.PostID })','Create')" style="cursor:pointer" class="btn btn-info "><i class="fas fa-info-circle"></i></a> |
+                                <a onclick="CheckDelete(@item.PostID, '@Url.Action("Delete", "Post")',@item.GroupId)" style="cursor:pointer" class="btn btn-danger"><i class="fas fa-trash-alt"></i></a>
+
+                            </p>
+                        }
+                        else
+                        {
+                            <p class="col-md-3 mt-1">
+                                <a onclick="showInputPopup('@Url.Action("Details", "Post", new { id = item.PostID })','Create')" style="cursor:pointer" class="btn btn-info "><i class="fas fa-info-circle"></i></a>
+                            </p>
+                        }
+
+                    </div>
+                    <div class="row">
+                        <p class="col-md-2"></p>
+                        <p class="text-center col-md-8">
+                            @item.Content
+                        </p>
+                        <p class="col-md-2"></p>
+
+                    </div>
+                </div>
+            }
+        }
+
+    </div>
+    <div class="col-md-1"></div>
+</div>
+
+<script>
+    function CheckDelete(id, uri,groupId) {
+        
+        event.preventDefault();
+        var _groupId = groupId;
+        Swal.fire({
+            title: 'Do you want to Delete Item?',
+            showDenyButton: true,
+            showCancelButton: true,
+            confirmButtonText: 'Save',
+            denyButtonText: `Don't save`,
+        }).then((result) => {
+            if (result.isConfirmed) {
+                var _id = id;
+                $.ajax({
+                    type: "post",
+                    url: uri,
+                    data: { "id": _id }
+                })
+                Swal.fire('Deleted!', '', 'success')
+                    .then((confirm) => {
+                        GetPostsIngroup(_groupId);
+                    })
+            } else if (result.isDenied) {
+                Swal.fire('Changes are not saved', '', 'info')
+            }
+        })
+    }
+</script>

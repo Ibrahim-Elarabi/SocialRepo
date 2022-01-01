@@ -1,0 +1,77 @@
+﻿@model GroupVM
+@{
+    ViewData["Title"] = "_CreateGroup_PV";
+}
+
+<h1>Create</h1>
+<div class="row">
+    <div class="col-md-4">
+        <form id="formCreateGroup">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Title" class="control-label"></label>
+                <input asp-for="Title" class="form-control" />
+                <span asp-validation-for="Title" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Description" class="control-label"></label>
+                <input asp-for="Description" class="form-control" />
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+               @* <button onclick="submitFormGroup()" type="button" value="Create" class="btn btn-primary btn-block">Create</button>*@
+                <button  type="submit" value="Create" class="btn btn-primary btn-block">Create</button>
+
+            </div>
+        </form>
+    </div>
+</div>
+<script src="~/lib/jquery-validation/dist/jquery.validate.js"></script>
+<script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+@*<script src="~/js/CreateGroup.js"></script>*@
+<script>
+    $("#formCreateGroup").on("submit", function () {
+        event.preventDefault();
+        /*function submitFormGroup() {*/
+        var _data = $("#formCreateGroup").serialize();
+        $.ajax({
+            type: "post",
+            url: 'Group/Create',
+            data: _data,
+            contentType: 'application/x-www-form-urlencoded; charset=UTF-8',
+            dataType: 'json',
+            success: (res) => {
+                if (res.ok == true) {
+                    $("#form-modal").modal('toggle');
+                    Swal.fire({
+                        position: 'top-end',
+                        icon: 'success',
+                        title: 'Your Create Success',
+                        showConfirmButton: true
+
+                    }).then(
+                        (confirm) => {
+                            if (confirm) {
+                                loadDataListGroup();
+                            }
+                        }
+                    )
+                    //window.location.reload();
+                }
+                else if (res.ok == false) {
+                    Swal.fire({
+                        position: 'top-end',
+                        icon: "error",
+                        title: 'Your Create Faild',
+                        showConfirmButton: true
+                    })
+                }
+            },
+            error: (res) => {
+                console.log(res);
+            }
+        })
+
+    });
+</script>

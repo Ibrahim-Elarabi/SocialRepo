@@ -1,0 +1,147 @@
+﻿@model BlogTask.Models.Post
+
+<h1>Create</h1>
+
+<h4>Post</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form id="formID">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="GroupID" value="@ViewBag.GroupID" />
+            <div class="form-group">
+                <label asp-for="Title" class="control-label"></label>
+                <input asp-for="Title" class="form-control" />
+                <span asp-validation-for="Title" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Content" class="control-label"></label>
+
+                <textarea asp-for="Content" class="form-control">Post Content  </textarea>
+                <span asp-validation-for="Content" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Img" class="control-label"></label>
+                <input  asp-for="Img" type="file" class="form-control" />
+                <span asp-validation-for="Img" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="BlogID" class="control-label"></label>
+                <select asp-for="BlogID" class="form-control" asp-items="ViewBag.BlogID"></select>
+            </div>
+
+            <div class="form-group">
+                <button type="submit" value="Create" class="btn btn-primary btn-block">Create</button>
+                @*<button onclick="CreaetPostInGroup()" value="Create" class="btn btn-primary btn-block">Create</button>*@
+
+            </div>
+
+        </form>
+    </div>
+</div>
+
+
+<script src="~/lib/jquery-validation/dist/jquery.validate.js"></script>
+<script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+@*<script type="text/javascript" src="~/js/CreatePost.js"></script>*@
+
+<script>
+    $("#formID").on("submit", function () {
+
+        //var _data = $("#formID").serialize();
+        var groupId =@ViewBag.GroupID;
+        var formData = new FormData(this);
+        event.preventDefault();
+    $.ajax({
+        type: "post",
+        //url: 'Post/Create',
+        url: '@Url.Action("Create","Post")',
+        data: formData,
+        cache: false,
+        contentType: false,
+        processData: false,
+        //dataType: 'json',
+        success: (res) => {
+            console.log(res);
+            if (res.ok == true) {
+                $("#form-modal").modal('toggle');
+                Swal.fire({
+                    position: 'top-end',
+                    icon: 'success',
+                    title: 'Your Create Success',
+                    showConfirmButton: true
+
+                }).then(
+                    (confirm) => {
+                        if (confirm) {
+                            GetPostsIngroup(groupId, 1);
+                        }
+                    }
+                )
+
+            }
+            else if (res.ok == false) {
+                Swal.fire({
+                    position: 'top-end',
+                    icon: "error",
+                    title: 'Your Create Faild',
+                    showConfirmButton: true
+                })
+            }
+        }, error: (res) => {
+            console.log(res);
+        }
+    })
+
+});
+</script>
+@*<script>
+        
+    $("#formID").on("submit", function () {
+        event.preventDefault();
+            var _data = $("#formID").serialize();
+            var _groupID = document.getElementById("GroupID").value;
+            var groupID = parseInt(_groupID);
+            $.ajax({
+                type: "post",
+                //url: 'Post/CreatePostInGroup',
+                url: '@Url.Action("Create", "Post")',
+                data: _data,
+                contentType: 'application/x-www-form-urlencoded; charset=UTF-8',
+                dataType: 'json',
+                success: (res) => {
+                    
+                    if (res.ok == true) {
+                        $("#form-modal").modal('toggle');
+                        Swal.fire({
+                            position: 'top-end',
+                            icon: 'success',
+                            title: 'Your Create Success',
+                            showConfirmButton: true
+
+                        }).then(
+                            (confirm) => {
+                                if (confirm) {
+                                    console.log('Id ' + groupID);
+                                    GetPostsIngroup(groupID,1);
+                                }
+                            }
+                        )
+
+                    } else if (res.ok == false) {
+                        Swal.fire({
+                            position: 'top-end',
+                            icon: "error",
+                            title: 'Your Create Faild',
+                            showConfirmButton: true
+                        })
+                    }
+                },
+                error: (res) => {
+                    alert(res);
+                }
+            })
+
+        });
+
+</script>*@

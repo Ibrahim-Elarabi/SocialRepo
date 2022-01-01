@@ -1,0 +1,83 @@
+﻿@model IEnumerable<BlogTask.Models.Blog>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.BlogId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.BlogId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.BlogId" onclick="CheckDelete(@item.BlogId)">Delete</a>
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>
+<script>
+    function CheckDelete(blogid) {
+        
+        event.preventDefault();
+       
+        Swal.fire({
+            title: 'Do you want to Delete Item Blog?',
+            showDenyButton: true,
+            showCancelButton: true,
+            confirmButtonText: 'Save',
+            denyButtonText: `Don't save`,
+        }).then((result) => {
+            /* Read more about isConfirmed, isDenied below */
+            if (result.isConfirmed) {
+                var _id = blogid;
+                $.ajax({
+                    type: "Post",
+                    url: '@Url.Action("Delete", "Blog")',
+                    data: {
+                        "id": _id
+                    }
+                })
+
+                
+                Swal.fire('Deleted!', '', 'success')
+                   
+                        //window.location.href = '/Blog/Index'
+                    
+                /*window.location.href = '/Blog/Index'*/
+            } else if (result.isDenied) {
+
+                Swal.fire('Changes are not saved', '', 'info')
+
+            }
+        })
+    }
+</script>
+@section Scripts{
+    <script src="~/jquery/jquery.js"></script>
+    <script src="~/jquery-ajax-unobtrusive/jquery.unobtrusive-ajax.js"></script>
+}
