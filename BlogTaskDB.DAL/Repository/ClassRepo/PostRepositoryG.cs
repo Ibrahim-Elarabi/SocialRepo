@@ -39,7 +39,7 @@ namespace BlogTaskDB.DAL.Repository.ClassRepo
         {
             try
             {
-                return Context.Posts.Where(p => p.UserId != null && p.GroupID == null).AsQueryable();
+                return Context.Posts.Where(p => p.UserId != null && p.GroupID == null).AsQueryable().OrderByDescending(p=>p.Date);
             }
             catch (Exception)
             {
@@ -49,7 +49,7 @@ namespace BlogTaskDB.DAL.Repository.ClassRepo
         }
         public   IQueryable<Post>  SearchGRoup(SearchDataVM filter)
         {
-            IQueryable<Post> posts = Context.Posts.AsQueryable();
+            IQueryable<Post> posts = Context.Posts.AsQueryable().OrderByDescending(p=>p.Date);
             if (filter != null)
             {
               
@@ -73,7 +73,7 @@ namespace BlogTaskDB.DAL.Repository.ClassRepo
         {
             try
             {
-                return Context.Posts.Where(p => p.GroupID == groupid).AsQueryable();
+                return Context.Posts.Where(p => p.GroupID == groupid).AsQueryable().OrderByDescending(p=>p.Date);
             }
             catch (Exception)
             {
@@ -83,84 +83,6 @@ namespace BlogTaskDB.DAL.Repository.ClassRepo
 
         }
 
-       //public IQueryable<Post> GetPostInGroupFilterByTitle(int groupid , string title)
-       // {
-       //     try
-       //     {
-       //      var posts =   Context.Posts.Where(p => p.GroupID == groupid && p.Title == title).AsQueryable();
-       //         return posts;
-       //     }
-       //     catch (Exception)
-       //     {
-
-       //         throw;
-       //     }
-       // }
-       // public IQueryable<Post> GetPostInGroupFilterByDate(int groupid, DateTime startDate , DateTime endDate)
-       // {
-
-       //     try
-       //     {
-       //         var posts = Context.Posts.Where(p => p.GroupID == groupid && p.Date> startDate && p.Date <= endDate).AsQueryable();
-       //         return posts;
-       //     }
-       //     catch (Exception)
-       //     {
-
-       //         throw;
-       //     }
-       // }
-       // public IQueryable<Post> GetPostInGroupFilterByUser(int groupid, string [] userID)
-       // {
-
-       //     try
-       //     {
-       //         var posts = Context.Posts.Where(p => p.GroupID == groupid && userID.Contains(p.UserId)).AsQueryable();
-       //         return posts;
-       //     }
-       //     catch (Exception)
-       //     {
-
-       //         throw;
-       //     }
-       // }
-
-       // public IQueryable<Post> GetPostInGroupFilterByTitleAndDate(int groupid, string title, DateTime startDate, DateTime endDate)
-       // {
-       //     try
-       //     {
-       //         var posts = Context.Posts.Where(p => p.GroupID == groupid && p.Title == title && p.Date > startDate && p.Date <= endDate).AsQueryable();
-       //         return posts;
-       //     }
-       //     catch (Exception)
-       //     {
-
-       //         throw;
-       //     }
-       // }
-
-       // public IQueryable<Post> GetPostInGroupFilterByTitleAndUser(int groupid, string title, string[] userID)
-       // {
-       //     try
-       //     {
-       //           var posts = Context.Posts.Where(p => p.GroupID == groupid && p.Title == title && userID.Contains(p.UserId)).AsQueryable();
-       //         return posts;
-       //     }
-       //     catch (Exception)
-       //     {
-
-       //         throw;
-       //     }
-       // }
-
-       // public IQueryable<Post> GetPostInGroupFilterByDateAndUser(int groupid, DateTime startDate, DateTime endDate, string[] userID)
-       // {
-       //     throw new NotImplementedException();
-       // }
-
-       // public IQueryable<Post> GetPostInGroupFilterByALlDate(int groupid, DateTime startDate, DateTime endDate, string[] userID, string title)
-       // {
-       //     throw new NotImplementedException();
-       // }
+      
     }
 }

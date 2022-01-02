@@ -7,48 +7,48 @@
 
             @foreach (var item in Model)
             {
-
-            <div class=" bg-light mt-2 col-12">
-                <div class="row justify-content-around ">
-                    <div class="col-md-5 ">
-                        <p class="text-info mb-0">
-                            <img src="~/Images/user.png" style="border-radius:50%" alt="Alternate Text" />
-                            @item.IdentityUser.Email
-                        </p>
-                        <p class="col-md-3 ml-5  mt-0 text-black display-6" style="font-size: 11px !important"> @Html.DisplayFor(modelItem => item.Date)</p>
-                    </div>
-                    @if (item.UserId == ViewBag.CurrentUserId)
-                    {
-                        <p class="col-md-3 mt-1">
-                            <a onclick="showInputPopup('@Url.Action("Edit", "Post", new { id = item.PostID })','Create')" style="cursor:pointer" class="btn btn-info"><i class="fas fa-edit"></i></a> |
-                            <a onclick="showInputPopup('@Url.Action("Details", "Post", new { id = item.PostID })','Create')" style="cursor:pointer" class="btn btn-info "><i class="fas fa-info-circle"></i></a> |
-                            <a onclick="CheckDelete(@item.PostID, '@Url.Action("Delete", "Post")',@item.GroupID)" style="cursor:pointer" class="btn btn-danger"><i class="fas fa-trash-alt"></i></a>
-
-                        </p>
-                    }
-                    else
-                    {
-                        <p class="col-md-3 mt-1">
-                            <a onclick="showInputPopup('@Url.Action("Details", "Post", new { id = item.PostID })','Create')" style="cursor:pointer" class="btn btn-info "><i class="fas fa-info-circle"></i></a>
-                        </p>
-                    }
-
-                </div>
-                <div class="row">
-                    <p class="col-md-2"></p>
-                    <p class="text-center col-md-8">
-                        @item.Content
+                var date = (DateTime.Now - item.Date).Days;
+        <div class=" bg-light mt-2 col-12">
+            <div class="row justify-content-around ">
+                <div class="col-md-5 ">
+                    <p class="text-info mb-0">
+                        <img src="~/Images/user.png" style="border-radius:50%" alt="Alternate Text" />
+                        @item.IdentityUser.Email
                     </p>
-                    <p class="col-md-2"></p>
-
+                    <p class="col-md-3 ml-5  mt-0 text-black display-6" style="font-size: 11px !important">@date Days</p>
                 </div>
-                @if (item.Img != null)
+                @if (item.UserId == ViewBag.CurrentUserId)
                 {
+                    <p class="col-md-3 mt-1">
+                        <a onclick="showInputPopup('@Url.Action("Edit", "Post", new { id = item.PostID })','Create')" style="cursor:pointer" class="btn btn-info"><i class="fas fa-edit"></i></a> |
+                        <a onclick="showInputPopup('@Url.Action("Details", "Post", new { id = item.PostID })','Create')" style="cursor:pointer" class="btn btn-info "><i class="fas fa-info-circle"></i></a> |
+                        <a onclick="CheckDelete(@item.PostID, '@Url.Action("Delete", "Post")',@item.GroupID)" style="cursor:pointer" class="btn btn-danger"><i class="fas fa-trash-alt"></i></a>
 
-                    <img src="~/Images/@item.Img" class="rounded mx-auto d-block" alt="Alternate Text" />
+                    </p>
                 }
+                else
+                {
+                    <p class="col-md-3 mt-1">
+                        <a onclick="showInputPopup('@Url.Action("Details", "Post", new { id = item.PostID })','Create')" style="cursor:pointer" class="btn btn-info "><i class="fas fa-info-circle"></i></a>
+                    </p>
+                }
+
             </div>
+            <div class="row">
+                <p class="col-md-2"></p>
+                <p class="text-center col-md-8">
+                    @item.Content
+                </p>
+                <p class="col-md-2"></p>
+
+            </div>
+            @if (item.Img != null)
+            {
+
+                <img src="~/Images/@item.Img" class="rounded mx-auto d-block" alt="Alternate Text" />
             }
+        </div>
+    }
 
 
         </div>
@@ -69,17 +69,21 @@
     </div>
 
     <script>
+  
     $("#prev").on("click", function () {
         //event.preventDefault();
-        GetPostsIngroup(@Model[0].GroupID, @Model.PageIndex-1)
+        var _data = $("#formSearch").serialize();
+        GetPostsIngroup(@Model[0].GroupID, @Model.PageIndex-1, _data)
 
     })
     $("#next").on("click", function () {
-         GetPostsIngroup(@Model[0].GroupID, @Model.PageIndex+1)
+            var _data = $("#formSearch").serialize();
+            GetPostsIngroup(@Model[0].GroupID, @Model.PageIndex+1, _data)
     })
     function CheckDelete(id, uri,groupId) {
 
         event.preventDefault();
+        var _data = $("#formSearch").serialize();
         var _groupId = groupId;
         Swal.fire({
             title: 'Do you want to Delete Item?',
@@ -97,7 +101,7 @@
                 })
                 Swal.fire('Deleted!', '', 'success')
                     .then((confirm) => {
-                        GetPostsIngroup(_groupId,@Model.PageIndex);
+                        GetPostsIngroup(_groupId,@Model.PageIndex, _data);
                     })
             } else if (result.isDenied) {
                 Swal.fire('Changes are not saved', '', 'info')

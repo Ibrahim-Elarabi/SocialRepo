@@ -44,7 +44,7 @@
         //alert(groupID);
         getSearchForm(groupID);
         GetHeaderGroup(groupID);
-        GetPostsIngroup(groupID,1);
+        GetPostsIngroup(groupID, 1, null);
     })
     function GetHeaderGroup(id) {
         var groupId = id;
@@ -64,14 +64,30 @@
         })
     }
 
-    function GetPostsIngroup(id,pageIndex) {
+    //function GetPostsIngroup(id,pageIndex) {
+    //    var groupId = id;
+       
+    //    $.ajax({
+    //        type: "Get",
+    //        url: '/Post/GetPostsInGroup?id=' + id + '&pageIndex=' + pageIndex,
+            
+    //        success: (res) => {
+    //            $("#allPosts").html(res);
+    //        }, error: () => {
+    //            $("#allPosts").html("Can't Load Data.");
+
+    //        }
+    //    })
+    //}
+
+    //Try
+    function GetPostsIngroup(id, pageIndex,_data) {
         var groupId = id;
+
         $.ajax({
             type: "Get",
-            url: '/Post/GetPostsInGroup?id=' + id,
-            data: {
-                "pageIndex": pageIndex
-            },
+            url: '/Post/GetPostsInGroup?id=' + id + '&pageIndex=' + pageIndex,
+            data: _data,
             success: (res) => {
                 $("#allPosts").html(res);
             }, error: () => {

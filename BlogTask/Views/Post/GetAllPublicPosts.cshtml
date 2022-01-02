@@ -3,6 +3,7 @@
 @model PaginatedList<Post>
 @foreach (var item in Model)
 {
+    var date = (DateTime.Now - item.Date).Days;
 
     <div class=" bg-light mt-2 col-12">
         <div class="row justify-content-around ">
@@ -12,7 +13,7 @@
                     @item.IdentityUser.Email
 
                 </p>
-                <p class="col-md-3 ml-5  mt-0 text-black display-6" style="font-size: 11px !important"> @Html.DisplayFor(modelItem => item.Date)</p>
+                <p class="col-md-3 ml-5  mt-0 text-black display-6" style="font-size: 11px !important"> @date Days </p>
             </div>
             @if (item.UserId == ViewBag.userId)
             {

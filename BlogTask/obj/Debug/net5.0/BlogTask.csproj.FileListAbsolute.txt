@@ -395,3 +395,4 @@ D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\bin\Debug\net5.0\BlogTaskDB.
 D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\obj\Debug\net5.0\Razor\Views\GroupUser\Index.cshtml.g.cs
 D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\obj\Debug\net5.0\Razor\Views\GroupUser\_GetRequestsGroup.cshtml.g.cs
 D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\obj\Debug\net5.0\Razor\Views\Post\_GetPostsInGroup.cshtml.g.cs
+D:\Courses\Core\Social Project\V4\BlogTask\BlogTask\obj\Debug\net5.0\Razor\Views\Post\_GetPostsInGroupBySearch.cshtml.g.cs

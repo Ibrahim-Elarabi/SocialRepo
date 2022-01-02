@@ -1,9 +1,10 @@
-﻿$("#formEditId").on("submit",function () {
+﻿$("#formEditId").on("submit", function () {
     var _data = $("#formEditId").serialize();
+    event.preventDefault();
     console.log("Data" + _data);
     $.ajax({
         type: "post",
-        url: 'Post/Edit',
+        url: '/Post/Edit',
         data: _data,
         contentType: 'application/x-www-form-urlencoded; charset=UTF-8',
         dataType: 'json',
@@ -31,7 +32,9 @@
                     showConfirmButton: true
                 })
             }
+        }, error: (err) => {
+            console.log(err);
         }
 
     })
-}
+});

@@ -209,58 +209,43 @@ namespace BlogTask.Controllers
             ViewBag.groupId = id;
             return PartialView("_GetSearchForm");
         }
-       
-        public IActionResult GetSearchData(string  id)
-        {
-            try
-            {
-                if (!string.IsNullOrEmpty(id))
-                {
-                    var posts = postRepository.GetPostsForUserByEmail(id).Select(p=> new PostVM(p) {Email = p.IdentityUser.Email });
-                    return PartialView("GetAllPublicPosts", posts);
-                }
-                var userId = this.User.FindFirstValue(ClaimTypes.NameIdentifier);
-                var Publicposts = postRepository.GetPublicPosts(userId).Select(p => new PostVM(p) { Email = p.IdentityUser.Email });
-                ViewBag.userId = userId;
-                
-                return PartialView("GetAllPublicPosts", Publicposts);
-            }
-            catch (Exception)
-            {
 
-                return PartialView("Error");
-            }
-        }
+        #region Get Search Data 
+        //public IActionResult GetSearchData(string  id)
+        //{
+        //    try
+        //    {
+        //        if (!string.IsNullOrEmpty(id))
+        //        {
+        //            var posts = postRepository.GetPostsForUserByEmail(id).Select(p=> new PostVM(p) {Email = p.IdentityUser.Email });
+        //            return PartialView("GetAllPublicPosts", posts);
+        //        }
+        //        var userId = this.User.FindFirstValue(ClaimTypes.NameIdentifier);
+        //        var Publicposts = postRepository.GetPublicPosts(userId).Select(p => new PostVM(p) { Email = p.IdentityUser.Email });
+        //        ViewBag.userId = userId;
 
-        public async Task<IActionResult> GetDataSearch(SearchDataVM filter)
+        //        return PartialView("GetAllPublicPosts", Publicposts);
+        //    }
+        //    catch (Exception)
+        //    {
+
+        //        return PartialView("Error");
+        //    }
+        //} 
+        #endregion
+
+        public async Task<IActionResult> GetDataSearch(int pageindex, SearchDataVM filter)
         {
 
             try
             {
                 var userId = this.User.FindFirstValue(ClaimTypes.NameIdentifier);
                 ViewBag.CurrentUserId = userId;
-                //if (filter.SearchText != null && filter.StartDate == null && filter.SelectedIds ==null)
-                //{
-                //    var posts = await PaginatedList<Post>.CreateAsync(PostRepositoryG.GetPostInGroupFilterByTitle(filter.GroupID, filter.SearchText), 1, 2);
-                //    return PartialView("_GetPostsInGroup", posts);
-                //}
-                //else if (filter.SearchText == null && filter.StartDate != null && filter.EndDate !=null && filter.SelectedIds == null)
-                //{
-                //    //DateTime startDate = filter.StartDate;
-                //    var posts = await PaginatedList<Post>.CreateAsync(PostRepositoryG.GetPostInGroupFilterByDate(filter.GroupID, filter.StartDate.Value , filter.EndDate.Value), 1, 2);
-                //    return PartialView("_GetPostsInGroup", posts);
-                //}
-                //else if (filter.SearchText == null && filter.StartDate == null && filter.SelectedIds != null)
-                //{
-                //    //DateTime startDate = filter.StartDate;
-                //    var posts = await PaginatedList<Post>.CreateAsync(PostRepositoryG.GetPostInGroupFilterByUser(filter.GroupID,filter.SelectedIds), 1, 2);
-                //    return PartialView("_GetPostsInGroup", posts);
-                //}
-                //var postsInGroup = await PaginatedList<Post>.CreateAsync(PostRepositoryG.GetAllPostsInGroupAsQueryAble(filter.GroupID), 1, 2);
+               
                 var posts = PostRepositoryG.SearchGRoup(filter);
-                 var postsPaginted=  await PaginatedList<Post>.CreateAsync(posts, 1, 2);
-                return PartialView("_GetPostsInGroup", postsPaginted);
-
+                 var postsPaginted=  await PaginatedList<Post>.CreateAsync(posts, pageindex, 2);
+                //return PartialView("_GetPostsInGroup", postsPaginted);
+                return PartialView("_GetPostsInGroupBySearch", postsPaginted);
             }
             catch (Exception)
             {
@@ -268,14 +253,35 @@ namespace BlogTask.Controllers
                 throw;
             }
         }
-        public async Task<IActionResult> GetPostsInGroup(int id,int pageIndex)
+        //public async Task<IActionResult> GetPostsInGroup(int id,int pageIndex)
+        //{
+        //    try
+        //    {
+                
+        //        var userId = this.User.FindFirstValue(ClaimTypes.NameIdentifier);
+        //        ViewBag.CurrentUserId = userId;
+        //        var posts = await PaginatedList<Post>.CreateAsync(PostRepositoryG.GetAllPostsInGroupAsQueryAble(id), pageIndex, 2);
+        //        return PartialView("_GetPostsInGroup", posts);
+        //    }
+        //    catch (Exception)
+        //    {
+
+        //        throw;
+        //    }
+        //}
+        public async Task<IActionResult> GetPostsInGroup(int id, int pageIndex,SearchDataVM filter)
         {
             try
             {
-                
-                //var PostsInGroup = PostRepositoryG.GetAllPostsInGroup(id).Select(p => new PostInGroupVM(p) { CurrentUserId = userId }).ToList();
+
                 var userId = this.User.FindFirstValue(ClaimTypes.NameIdentifier);
                 ViewBag.CurrentUserId = userId;
+                if(filter.SearchText != null || filter.StartDate != null || filter.SelectedIds != null)
+                {
+                    var postsBySearch = PostRepositoryG.SearchGRoup(filter);
+                    var postsPaginted = await PaginatedList<Post>.CreateAsync(postsBySearch, pageIndex, 2);
+                    return PartialView("_GetPostsInGroup", postsPaginted);
+                }
                 var posts = await PaginatedList<Post>.CreateAsync(PostRepositoryG.GetAllPostsInGroupAsQueryAble(id), pageIndex, 2);
                 return PartialView("_GetPostsInGroup", posts);
             }
